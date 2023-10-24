@@ -1,0 +1,57 @@
+.calculator {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgba(52, 51, 51, 0.6);
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 30%;
+    margin: auto;
+    padding: 10px; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-gap: 10px; 
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+#display {
+    width: 100%;
+    font-size: 24px;
+    padding: 5px;
+    border: 2px solid #ccc; /* Add a border to the display */
+    border-radius: 5px; /* Rounded corners */
+    text-align: right; /* Right-align text */
+    font-family: monospace; /* Use a fixed-width font */
+    max-width: 100%; /* Add a max-width property to ensure it doesn't overflow the container */
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #ccc; /* Add a border to the buttons */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Slight shadow for a raised effect */
+}
+
+.operator {
+    background-color: #ff9900;
+    color: white;
+}
+
+.equals {
+    background-color: #0066cc;
+    color: white;
+}
