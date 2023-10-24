@@ -23,12 +23,12 @@
     width: 100%;
     font-size: 24px;
     padding: 5px;
-    border: 2px solid #ccc; /* Add a border to the display */
-    border-radius: 5px; /* Rounded corners */
-    text-align: right; /* Right-align text */
-    font-family: monospace; /* Use a fixed-width font */
-    max-width: 100%; /* Add a max-width property to ensure it doesn't overflow the container */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    text-align: right;
+    font-family: monospace;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .buttons {
@@ -42,8 +42,8 @@ button {
     width: 100%;
     height: 50px;
     font-size: 18px;
-    border: 1px solid #ccc; /* Add a border to the buttons */
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Slight shadow for a raised effect */
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .operator {
